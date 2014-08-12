@@ -9,7 +9,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
     name='django-admin-tweaks',
     version='0.1',
-    packages=['admin-tweaks'],
+    packages=['admin_tweaks'],
     include_package_data=True,
     license='',
     description='Django admin tweaks for more functionality mainly in the model view list display.',
@@ -26,5 +26,9 @@ setup(
         'Programming Language :: Python',
         'Programming Language :: Python :: 2.7',
         'Topic :: Internet :: WWW/HTTP',
+    ],
+    install_requires=[
+        'Django',
+        'easy-thumbnails',
     ],
 )
