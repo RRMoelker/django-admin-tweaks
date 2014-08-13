@@ -7,6 +7,6 @@ def icon_view(image_field):
 	if not image_field:
 		return "no image"
 	thumb = get_thumbnailer(image_field)[alias]
-	html = '<img src="%s" alt="%s" />' % (thumb.url, image_field)
+	html = '<img src="%s" alt="%s" width="%s" height="%s"/>' % (thumb.url, image_field, thumb.width, thumb.height)
 	return html
 	
