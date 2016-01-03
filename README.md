@@ -11,10 +11,10 @@ Current features:
 ## Installation
 
 Either install directly:
-`pip install -e git+git@github.com:RRMoelker/django-admin-tweaks.git#egg=admin_tweaks`
+`pip install git+https://github.com/RRMoelker/django-admin-tweaks.git#egg=admin_tweaks`
 
 Or add the following line to your requirements file:
-`-e git+git@github.com:RRMoelker/django-admin-tweaks.git#egg=admin_tweaks`
+`-e git+https://github.com/RRMoelker/django-admin-tweaks.git#egg=admin_tweaks`
 
 ## Usage
 
